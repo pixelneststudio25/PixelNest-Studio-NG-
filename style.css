@@ -904,7 +904,7 @@ p  { font-size: 1.8rem; line-height: 1.6; }
     max-height: 200px;
     justify-content: left;
     align-items: baseline;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 .service_info p{
     font-size: 1rem;
