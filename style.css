@@ -678,6 +678,8 @@ footer p {
   padding: 20px;
   width: 300px;
   transition: transform 0.2s;
+  width: 
+  box-sizing: border-box; /* Ensures padding doesn't overflow the card */
 }
 .plan-card:hover { transform: translateY(-5px); }
 
@@ -1138,7 +1140,9 @@ p  { font-size: 1.8rem; line-height: 1.6; }
   }
 
   .plan-card {
-    width: 100%;
+  width: 100%;
+  padding: 16px 20px; 
+  box-sizing: border-box; 
   }
 
   .product-card {
