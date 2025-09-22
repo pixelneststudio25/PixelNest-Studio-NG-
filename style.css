@@ -165,8 +165,8 @@ nav ul li a:hover {
 
 .hero h1 {
   font-family: "Bogart",serif; 
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 5rem;
+  font-weight: 200;
   letter-spacing: 2.7px;
   margin-top: 70px;
   margin-bottom: 30px;
@@ -237,8 +237,8 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 3.5rem;
-    font-weight: 200;
+    font-size: 4.2rem;
+    font-weight: 120;
     justify-content: center;
   }
   .hero p {
@@ -255,8 +255,8 @@ nav ul li a:hover {
     padding: 30px 15px;
   }
   .hero h1 {
-    font-size: 3rem;
-    font-weight: 150;
+    font-size: 4rem;
+    font-weight: 100;
     justify-content: center;
   }
   .hero p {
