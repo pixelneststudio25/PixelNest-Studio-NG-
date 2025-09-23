@@ -173,6 +173,12 @@ nav ul li a:hover {
   justify-content: center;
 }
 
+#typed {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
 .view-plans-btn {
   background: #00dcdc;
   color: #050c17;
@@ -243,6 +249,7 @@ nav ul li a:hover {
   }
   .hero p {
     font-size: 1rem;
+    margin-bottom: 25px;
   }
   .hero-button {
     padding: 12px 25px;
@@ -260,6 +267,19 @@ nav ul li a:hover {
     justify-content: center;
   }
   .hero p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #typed {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #typed {
     font-size: 0.9rem;
   }
 }
