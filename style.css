@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=moderrat@200,400,700&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=bogart@400,700&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=bogart@400,700&display=swap');
+
 /* General Reset */
 
 html {
@@ -164,7 +164,7 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-  font-family: "Moderrat",serif; 
+  font-family: "Moderrat", Georgia ,sans-serif; 
   font-size: 5rem;
   font-weight: 400;
   letter-spacing: 2.7px;
