@@ -189,11 +189,13 @@
   <script>
     new Typed('#typed', {
       strings: ['Affordable.', 'Modern.', 'Responsive.'],
-      typeSpeed: 60,
-      backSpeed: 30,
+      typeSpeed: 100,
+      backSpeed: 50,
       loop: true,
       showCursor: true,
       cursorChar: '|'
+      startDelay: 500,   // wait 0.5s before typing starts
+      backDelay: 1000,   // wait 1s before backspacing
     });
   </script>
 </body>
