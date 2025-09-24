@@ -164,10 +164,10 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-  font-family: "Times New Roman",serif; 
-  font-size: 5rem;
-  font-weight: 400;
-  letter-spacing: 2.7px;
+  font-family: "Saira", sans-serif; 
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 3px;
   margin-top: 70px;
   margin-bottom: 30px;
   justify-content: center;
@@ -243,8 +243,8 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 4.2rem;
-    font-weight: 400;
+    font-size: 3.5rem;
+    font-weight: 100;
     justify-content: center;
   }
   .hero p {
@@ -262,8 +262,8 @@ nav ul li a:hover {
     padding: 30px 15px;
   }
   .hero h1 {
-    font-size: 4rem;
-    font-weight: 400;
+    font-size: 3rem;
+    font-weight: 100;
     justify-content: center;
   }
   .hero p {
@@ -375,20 +375,42 @@ nav ul li a:hover {
 }
 
 .card {
-  font-size: 15px;
-  background-color: #072e2e;
-  padding-top: 30px;
+    color: black;
+  font-size: 18px;
+  background-color: #fff;
+  padding-top: 50px;
   padding-left: 13px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   padding-right: 13px;
-  border-radius: 12px;
+  border-radius: 32px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-sizing: border-box; /* Ensures padding doesn't overflow the card */
-  list-style: none;
 }
 
-.card P {
+#ser-card {
+    color: #fff;
+  background-color: #072e2e;
+}
+
+#ser-card h3{
+    font-size: 18px;
+}
+
+#standard-plan {
+    margin-top: -18px;
+    height: 107%;
+}
+
+.card-content ul li {
+    list-style-type: none;
+}
+
+.card-content p {
+    width: 90%;
+    padding-left: 30px;
+}
+
+.card p {
   padding-top: 4px;
   font-size: 13px;
 }
@@ -396,6 +418,25 @@ nav ul li a:hover {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0,0,0,0.7);
+}
+
+.plans-btn {
+    font-weight: 700;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  padding: 10px 40px;
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-decoration: none;
+    transition: 2s;
+}
+
+.plans-btn:hover {
+  background: #000;
+    color: #fff;
 }
 
 .hotlines {
@@ -702,8 +743,6 @@ footer p {
   padding: 20px;
   width: 300px;
   transition: transform 0.2s;
-  width: 
-  box-sizing: border-box; /* Ensures padding doesn't overflow the card */
 }
 .plan-card:hover { transform: translateY(-5px); }
 
@@ -781,7 +820,11 @@ p  { font-size: 1.8rem; line-height: 1.6; }
 }
 
 /* Store */
-.store-section { padding: 100px 70px; text-align: center; }
+.store-section { padding: 100px 100px; text-align: center; }
+
+.store-section h1 {
+    font-size: 40px;
+}
 
 .store-container {
   display: grid;
@@ -836,7 +879,16 @@ p  { font-size: 1.8rem; line-height: 1.6; }
 .card p { margin-bottom: 10px; }
 .card:hover img { transform: scale(1.05); }
 
-.subtitle { margin-top: 20px; }
+.subtitle { 
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.subtitle2 { 
+    font-size: 22px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
 
 /* Button Hover Effects */
 .btn {
@@ -869,14 +921,14 @@ p  { font-size: 1.8rem; line-height: 1.6; }
 
 .about-title {
   font-family: "Saira", sans-serif; 
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
   color: #222;
 }
 
 .about-text {
   font-family: 'Montserrat', sans-serif;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   color: #444;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -926,7 +978,7 @@ p  { font-size: 1.8rem; line-height: 1.6; }
     max-height: 200px;
     justify-content: left;
     align-items: baseline;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 .service_info p{
     font-size: 1rem;
@@ -1179,7 +1231,15 @@ p  { font-size: 1.8rem; line-height: 1.6; }
   .product-card {
     width: 100%;
   }
-
+    
+    .service_img, .ser1, .ser2, .ser3 {
+        visibility: hidden;
+    }
+    
+    #assure{
+        margin-top: -1250px;
+    }
+    
   .services_container2 {
     margin-left: 0;
     width: 100%;
