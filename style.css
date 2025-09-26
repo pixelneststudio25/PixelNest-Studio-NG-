@@ -174,6 +174,7 @@ nav ul li a:hover {
 }
 
 #typed {
+  display: block;
   font-size: 2rem;
   font-weight: 300;
   min-height: 2.2rem;
@@ -274,12 +275,6 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  #typed {
-    font-size: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
   #typed {
     font-size: 2rem;
   }
