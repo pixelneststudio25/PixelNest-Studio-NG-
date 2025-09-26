@@ -1273,7 +1273,9 @@ p  { font-size: 1.8rem; line-height: 1.6; }
         font-size: 14px;
         font-weight: 600;
         padding: 10px 30px;
-        background: #096b75
+        background: #5c9cd1;
+        border: transparent;
+        color: #fff;
   
 }
 
