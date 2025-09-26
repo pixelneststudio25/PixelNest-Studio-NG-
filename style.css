@@ -1331,5 +1331,5 @@ p  { font-size: 1.8rem; line-height: 1.6; }
 }
 .typed-fade-out {
   opacity: 0;
-  transition: opacity 0.9s ease;
+  transition: opacity 1.4s ease;
 }
