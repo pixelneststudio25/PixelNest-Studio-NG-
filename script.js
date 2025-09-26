@@ -80,13 +80,14 @@ document.querySelectorAll('.nav-links li a').forEach(link => {
 });
 
 const serviceBoxes = document.querySelectorAll(".service_box , .service_box2 , .serviceimg , .ser1 , .ser2 , .ser3");
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("show");
-      } else {
-        entry.target.classList.remove("show");
-      }
-    });
-  }, { threshold: 0.2 });
-  serviceBoxes.forEach(box => observer.observe(box));
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+      observer.unobserve(entry.target); // stop watching after first reveal
+    }
+  });
+}, { threshold: 0.2 });
+
+serviceBoxes.forEach(box => observer.observe(box));
