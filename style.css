@@ -975,7 +975,7 @@ p  { font-size: 1.8rem; line-height: 1.6; }
     border: 5px solid transparent;
 }
 .service_box:hover{
-    background: white;
+    background: #376b6b;
     color: black;
     border: 5px solid #072e2e;
     transform: scale(1.03);
@@ -1272,8 +1272,10 @@ p  { font-size: 1.8rem; line-height: 1.6; }
     
     .plans-btn {
         font-size: 14px;
-    font-weight: 600;
-  padding: 10px 30px;
+        font-weight: 600;
+        padding: 10px 30px;
+        background: #5eebeb
+  
 }
 
 #standard-plan {
