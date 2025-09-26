@@ -118,7 +118,7 @@ nav ul li a:hover {
     background: rgba(10, 25, 47, 0.95);
     gap: 15px;
     display: none; /* hidden by default */
-    padding-top: 100px;
+    padding-top: 160px;
     box-sizing: border-box;
     z-index: 1200;
   }
