@@ -1274,9 +1274,8 @@ p  { font-size: 1.8rem; line-height: 1.6; }
         font-weight: 600;
         padding: 10px 30px;
         background: #5c9cd1;
-        border: transparent;
+        border: none;
         color: #fff;
-  
 }
 
 #standard-plan {
