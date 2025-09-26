@@ -1273,7 +1273,7 @@ p  { font-size: 1.8rem; line-height: 1.6; }
         font-size: 14px;
         font-weight: 600;
         padding: 10px 30px;
-        background: #5eebeb
+        background: #096b75
   
 }
 
@@ -1306,8 +1306,8 @@ p  { font-size: 1.8rem; line-height: 1.6; }
   }
 
   .social-icons a {
-    font-size: 24px;
-    margin: 0 10px;
+    font-size: 30px;
+    margin: 0 15px;
   }
 
 #editing {
@@ -1331,5 +1331,5 @@ p  { font-size: 1.8rem; line-height: 1.6; }
 }
 .typed-fade-out {
   opacity: 0;
-  transition: opacity 1.4s ease;
+  transition: opacity 0.9s ease;
 }
