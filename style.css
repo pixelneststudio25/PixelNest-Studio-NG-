@@ -543,6 +543,7 @@ section {
 }
 
 .about p {
+    padding: 0 30px;
   font-size: 1.4rem;
   text-align: center;
 }
@@ -1322,5 +1323,12 @@ p  { font-size: 1.8rem; line-height: 1.6; }
 
 #graphics2 {
     padding-bottom: 0px;
+}
+
+.about p {
+    margin-left: -12px;
+    width: 110%;
+    padding: 0 0px;
+  font-size: 1rem;
 }
 }
