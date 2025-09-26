@@ -40,7 +40,7 @@
   <section class="hero">
     <div class="hero-content animate">
       <h1>PIXELNEST STUDIO</h1>
-      <p>Affordable. Modern. Responsive.</p>
+      <p><span id="typed"></span></p>
       <a href="plans.html" class="view-plans-btn" data-aos="flip-up">View Plans</a>
     </div>
   </section>
@@ -184,7 +184,17 @@
   <footer>
     <p>© 2025 PixelNest Studio | Built with Precision and Creativity.</p>
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    new Typed('#typed', {
+      strings: ['Affordable.', 'Modern.', 'Responsive.'],
+      typeSpeed: 60,
+      backSpeed: 30,
+      loop: true,
+      showCursor: true,
+      cursorChar: '|'
+    });
+  </script>
   <script src="script.js"></script>
 </body>
 
