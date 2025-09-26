@@ -177,7 +177,7 @@ nav ul li a:hover {
   display: block;
   font-size: 2rem;
   font-weight: 300;
-  min-height: 2.2rem;
+  min-height: 2rem;
   letter-spacing: 1px;
 }
 
@@ -276,7 +276,8 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
   #typed {
-    font-size: 2rem;
+    font-size: 1.3rem;
+    min-height: 1.3rem;
   }
 }
 
@@ -975,9 +976,6 @@ p  { font-size: 1.8rem; line-height: 1.6; }
     border: 5px solid transparent;
 }
 .service_box:hover{
-    background: #376b6b;
-    color: black;
-    border: 5px solid #072e2e;
     transform: scale(1.03);
 }
 .service_box .service_info{
