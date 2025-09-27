@@ -1334,3 +1334,124 @@ p  { font-size: 1.8rem; line-height: 1.6; }
   opacity: 0;
   transition: opacity 0.9s ease;
 }
+
+
+/* =========================
+   Comparison Section Styling
+   ========================= */
+.comparison-section {
+  margin-top: 80px;
+  padding: 40px;
+  background: rgba(12, 73, 73, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.comparison-section h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+/* =========================
+   Comparison Table Styling
+   ========================= */
+.pricing-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table th,
+.pricing-table td {
+  border: 1px solid #444;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Header styling */
+.pricing-table th {
+  background: #0c4949; /* branded teal header */
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Base table cells */
+.pricing-table td {
+  background: #1e1e1e; /* dark gray background */
+  color: #f5f5f5;      /* light text for contrast */
+}
+
+
+/* Alternate row shading for readability */
+.pricing-table tbody tr:nth-child(even) td {
+  background: #2a2a2a;
+}
+
+/* Hover effect */
+.pricing-table tr:hover td {
+  background: #333333;
+  transition: background 0.3s ease;
+}
+
+/* Checkmark & cross styling */
+.pricing-table td.check {
+  color: #00b894;
+  font-weight: bold;
+}
+
+.pricing-table td.cross {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+/* Highlighted premium column */
+.pricing-table th.highlight,
+.pricing-table td.highlight {
+  background: #00dcdc;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+}
+
+/* Smooth badge styling */
+.pricing-table .badge {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  color: #fff;
+  padding: 4px 10px;
+  font-size: 0.75em;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+  .comparison-section {
+    padding: 10px;
+  }
+
+  .pricing-table {
+    max-width: 100%;
+    font-size: 0.7rem; /* shrink text slightly */
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 5px; /* tighter padding for small screens */
+  }
+
+  .pricing-table th {
+    font-size: 0.9rem; /* smaller header text */
+  }
+}
