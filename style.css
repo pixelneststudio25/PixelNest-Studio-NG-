@@ -385,6 +385,19 @@ nav ul li a:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card2 {
+    color: #000;
+  font-size: 18px;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-left: 13px;
+  padding-bottom: 50px;
+  padding-right: 13px;
+  border-radius: 32px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 #ser-card {
     color: #fff;
   background-color: #072e2e;
@@ -418,6 +431,16 @@ nav ul li a:hover {
   box-shadow: 0 6px 10px rgba(0,0,0,0.7);
 }
 
+.card2 p {
+  padding-top: 4px;
+  font-size: 13px;
+}
+
+.card2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.7);
+}
+
 .plans-btn {
     font-weight: 700;
   display: inline-block;
@@ -435,6 +458,25 @@ nav ul li a:hover {
 .plans-btn:hover {
   background: #000;
     color: #fff;
+}
+
+.plans-btn-og {
+    font-weight: 700;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  padding: 10px 40px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-decoration: none;
+    transition: 2s;
+}
+
+.plans-btn-og:hover {
+  background: #fff;
+    color: #072e2e;
 }
 
 .hotlines {
@@ -878,6 +920,17 @@ p  { font-size: 1.8rem; line-height: 1.6; }
 .card p { margin-bottom: 10px; }
 .card:hover img { transform: scale(1.05); }
 
+.card2 { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.card2:hover { transform: translateY(-10px) scale(1.02); box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15); }
+
+.card2 img {
+  transition: transform 0.4s ease;
+  width: 100%;
+  height: auto;
+}
+.card2 p { margin-bottom: 10px; }
+.card2:hover img { transform: scale(1.05); }
+
 .subtitle { 
     margin-top: 12px;
     margin-bottom: 40px;
@@ -1273,9 +1326,6 @@ p  { font-size: 1.8rem; line-height: 1.6; }
         font-size: 14px;
         font-weight: 600;
         padding: 10px 30px;
-        background: #46a1b8;
-        border: none;
-        color: #fff;
 }
 
 #standard-plan {
